@@ -9,6 +9,6 @@
       service: name=httpd enabled=yes state=started
     - name: Insert Index Page
       template:
-       src: index.html
+       src: /home/ec2-user
        dest: /var/www/html/index.html
 ...
